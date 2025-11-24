@@ -13,8 +13,6 @@ Logic of the Program
 
 - **Real-time Sentiment Analysis**: Instantly analyze any text input
 - **Visual Feedback**: Emoji-based sentiment representation 
-- **Adjustable Sensitivity**: Customize threshold levels (0.1 - 0.9) for sentiment classification
-- **Sentiment Score**: Displays precise polarity score (-1.0 to +1.0)
 - **Color-Coded Results**: 
   - 🟢 Green text for Positive sentiment
   - 🔴 Red text for Negative sentiment
@@ -67,11 +65,8 @@ python sentiment_gui.py
 ### How to Use
 
 1. **Enter Text**: Type or paste your text into the input box
-2. **Adjust Threshold** (Optional): Use the slider to set sensitivity
-   - Lower threshold (0.1-0.3): More sensitive, broader categorization
-   - Higher threshold (0.4-0.9): Less sensitive, stricter categorization
-3. **Analyze**: Click "Analyze Sentiment" button or press `Ctrl + Enter`
-4. **View Results**: See the emoji, category, and numerical score
+2. **Analyze**: Click "Analyze Sentiment" button or press `Ctrl + Enter`
+3. **View Results**: See the emoji and category
 
 ### Example Inputs
 
@@ -94,15 +89,6 @@ python sentiment_gui.py
 ```
 <img width="561" height="559" alt="image" src="https://github.com/user-attachments/assets/3f61b3bc-a849-430d-ba91-5517bb97baf9" />
 
-
-## 📊 Understanding Sentiment Scores
-
-- **Score Range**: -1.0 (most negative) to +1.0 (most positive)
-- **Positive**: Score ≥ threshold
-- **Neutral**: Score between -threshold and threshold
-- **Negative**: Score ≤ -threshold
-
-Default threshold is set to 0.3, which balances sensitivity and accuracy.
 
 ##  Project Structure
 
