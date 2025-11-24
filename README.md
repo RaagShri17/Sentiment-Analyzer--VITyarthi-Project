@@ -76,16 +76,21 @@ python sentiment_gui.py
 ```
 "I absolutely love this product! It exceeded all my expectations."
 ```
+<img width="558" height="557" alt="image" src="https://github.com/user-attachments/assets/6600fcf5-4776-486d-a462-7d0f7018507c" />
 
 **Negative Sentiment:**
 ```
 "This is terrible. I'm very disappointed with the quality."
 ```
+<img width="555" height="556" alt="image" src="https://github.com/user-attachments/assets/757401dc-5064-4877-a09b-ecb401d36112" />
+
 
 **Neutral Sentiment:**
 ```
 "The package arrived on Tuesday. It contains three items."
 ```
+<img width="561" height="559" alt="image" src="https://github.com/user-attachments/assets/3f61b3bc-a849-430d-ba91-5517bb97baf9" />
+
 
 ## 📊 Understanding Sentiment Scores
 
@@ -170,7 +175,9 @@ python -m textblob.download_corpora
 - [ ] Advanced visualization with graphs
 - [ ] Machine learning model training option
 
-
+## Screenshots
 ---
 
-**Made with ❤️ and Python**
+**Made By**
+Raag Shri 
+25BAI 10431
