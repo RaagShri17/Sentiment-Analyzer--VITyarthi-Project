@@ -17,7 +17,9 @@ There is a clear need for an automated, user-friendly, and accurate tool that ca
 
 Real-time sentiment analysis of user-provided text input
 Classification of text into three categories: Positive, Negative, or Neutral
+Numerical sentiment scoring (polarity range: -1.0 to +1.0)
 Visual representation using emojis (😊, 😐, 😠)
+Adjustable sensitivity threshold (0.1 to 0.9) for customized analysis
 
 2. Technical Implementation:
 
@@ -151,6 +153,11 @@ Technical Detail: Python and Tkinter's platform-independent design
 **Feature 8: Zero Configuration**
 Description: Works immediately after installation with default settings
 User Benefit: Quick setup; no complex configuration needed
+
+**Feature 4:** Adjustable Sensitivity Threshold
+Description: Slider control (0.1 to 0.9) to customize sentiment boundaries
+User Benefit: Flexibility for different use cases and personal preferences
+Technical Detail: Real-time threshold adjustment without restart
 
 ## Long-Term Vision:
 **This project serves as a foundation for more advanced sentiment analysis applications, including multi-language support, emotion detection, batch processing, and integration with various platforms. It demonstrates the practical application of AI/ML in solving real-world problems while maintaining accessibility for users of all technical levels.**
